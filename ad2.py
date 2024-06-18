@@ -160,14 +160,14 @@ if show_highest_earning_combined:
 
 # Sidebar statistics
 st.sidebar.markdown("## Statistics")
-if st.sidebar.checkbox("Show Statistics"):
-    if st.sidebar.checkbox("Show Most Downloaded Data"):
-        st.sidebar.markdown("### Most Downloaded Games")
-        st.sidebar.dataframe(most_downloaded_df)
+if st.sidebar.checkbox("Show Statistics", value=True):
+    if st.sidebar.checkbox("Show Most Downloaded Data", value=True):
+        st.markdown("### Most Downloaded Games")
+        st.dataframe(most_downloaded_df)
 
-    if st.sidebar.checkbox("Show Highest Earning Data"):
-        st.sidebar.markdown("### Highest Earning Games")
-        st.sidebar.dataframe(highest_earning_df)
+    if st.sidebar.checkbox("Show Highest Earning Data", value=True):
+        st.markdown("### Highest Earning Games")
+        st.dataframe(highest_earning_df)
 
 st.markdown("""
 
