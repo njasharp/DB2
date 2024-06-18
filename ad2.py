@@ -55,7 +55,8 @@ highest_earning_df = pd.DataFrame(highest_earning_data)
 # Streamlit app
 st.set_page_config(layout="wide")
 st.sidebar.title("Data Analysis - Mobile Games May2024")
-st.info("build by dw")
+st.info("build by dw - global")
+st.image("gsmetop.png")
 # Show checkboxes at the top of the sidebar
 show_most_downloaded_ios = st.sidebar.checkbox("Show Most Downloaded - iOS", value=True)
 show_most_downloaded_google_play = st.sidebar.checkbox("Show Most Downloaded - Google Play", value=True)
