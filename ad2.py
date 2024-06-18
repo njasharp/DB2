@@ -70,15 +70,15 @@ st.sidebar.markdown("### Select Data Types")
 most_downloaded_ios = st.sidebar.radio("Most Downloaded - iOS", ["Bar Chart", "Pie Chart", "Histogram", "Box and Whisker Plot", 
                                                                  "Area Chart", "Scatter Plot", "Heat Map", "Pictogram Chart"], index=0)
 most_downloaded_google_play = st.sidebar.radio("Most Downloaded - Google Play", ["Bar Chart", "Pie Chart", "Histogram", "Box and Whisker Plot", 
-                                                                                 "Area Chart", "Scatter Plot", "Heat Map", "Pictogram Chart"], index=0)
+                                                                                 "Area Chart", "Scatter Plot", "Heat Map", "Pictogram Chart"], index=1)
 most_downloaded_combined = st.sidebar.radio("Most Downloaded - Combined", ["Bar Chart", "Pie Chart", "Histogram", "Box and Whisker Plot", 
-                                                                           "Area Chart", "Scatter Plot", "Heat Map", "Pictogram Chart"], index=0)
+                                                                           "Area Chart", "Scatter Plot", "Heat Map", "Pictogram Chart"], index=2)
 highest_earning_ios = st.sidebar.radio("Highest Earning - iOS", ["Bar Chart", "Pie Chart", "Histogram", "Box and Whisker Plot", 
-                                                                 "Area Chart", "Scatter Plot", "Heat Map", "Pictogram Chart"], index=0)
+                                                                 "Area Chart", "Scatter Plot", "Heat Map", "Pictogram Chart"], index=1)
 highest_earning_google_play = st.sidebar.radio("Highest Earning - Google Play", ["Bar Chart", "Pie Chart", "Histogram", "Box and Whisker Plot", 
-                                                                                 "Area Chart", "Scatter Plot", "Heat Map",  "Pictogram Chart"], index=0)
+                                                                                 "Area Chart", "Scatter Plot", "Heat Map",  "Pictogram Chart"], index=2)
 highest_earning_combined = st.sidebar.radio("Highest Earning - Combined", ["Bar Chart", "Pie Chart", "Histogram", "Box and Whisker Plot", 
-                                                                           "Area Chart", "Scatter Plot", "Heat Map", "Pictogram Chart"], index=0)
+                                                                           "Area Chart", "Scatter Plot", "Heat Map", "Pictogram Chart"], index=5)
 
 # Function to create charts with smaller size
 def create_chart(df, x_col, y_col, title, chart_type):
