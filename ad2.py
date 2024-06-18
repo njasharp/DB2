@@ -168,3 +168,45 @@ if st.sidebar.checkbox("Show Statistics"):
     if st.sidebar.checkbox("Show Highest Earning Data"):
         st.sidebar.markdown("### Highest Earning Games")
         st.sidebar.dataframe(highest_earning_df)
+
+st.markdown("""
+
+In May 2024, the gaming market saw significant activity with notable trends in both downloads and revenue generation across the iOS App Store and Google Play. On the iOS App Store, "Brawl Stars" and "Block Blast!" each led the downloads with 4 million installs, followed closely by "Roblox," "Subway Surfers," and "Happy Fishing," each with 3 million installs. The Google Play store showed an even higher volume of downloads, with "Pizza Ready!" and "Subway Surfers" each reaching 19 million installs, and "Ludo King™" achieving 15 million installs.
+
+When considering combined totals across both platforms, "Subway Surfers" and "Pizza Ready!" topped the charts with 22 million downloads each, followed by "Ludo King™" with 16 million and "Roblox" with 15 million installs. Other notable mentions include "Wood Nuts & Bolts" with 15 million and "Block Blast!" with 14 million downloads.
+
+In terms of revenue, "King of Glory" dominated the iOS App Store, generating 131 million, while "MONOPOLY GO!" and "Peace Elite" followed with 96 million and 90 million, respectively. On Google Play, "Royal Match" led the earnings with 28 million, with "Coin Master" and "Candy Crush Saga" each earning 27 million.
+
+Combining revenue from both platforms, "King of Glory" maintained its top position with 131 million in earnings. "MONOPOLY GO!" and "Royal Match" also performed strongly with 116 million and 96 million, respectively. "Peace Elite" earned 90 million, and "Candy Crush Saga" rounded out the top five with 70 million in revenue.
+
+These findings highlight the significant engagement and spending within the mobile gaming market, with certain games consistently performing well across both downloads and revenue metrics.
+
+In May 2024, the mobile gaming landscape was dominated by a mix of action, puzzle, and simulation games. Here's a breakdown of the leading genres and why they performed so well:
+
+### Action Games
+**Top Games: Brawl Stars, Free Fire, Free Fire MAX**
+- **Brawl Stars:** This game led the downloads on the iOS App Store with 4 million installs. Its success can be attributed to its fast-paced, multiplayer gameplay which keeps players engaged and coming back for more. The game's regular updates, events, and a strong community also contribute to its popularity.
+- **Free Fire and Free Fire MAX:** These battle royale games continue to attract a large player base due to their accessible gameplay, short match times, and extensive customization options. Their strong presence on Google Play with millions of downloads highlights their appeal in diverse markets.
+
+### Puzzle Games
+**Top Games: Block Blast!, Candy Crush Saga, Wood Nuts & Bolts**
+- **Block Blast!:** Ranking high in downloads on both iOS and Google Play, this puzzle game combines simple mechanics with challenging levels, making it highly addictive. Puzzle games like Block Blast! are known for their broad appeal, attracting both casual and hardcore gamers.
+- **Candy Crush Saga:** Despite being a veteran in the mobile gaming space, Candy Crush Saga continues to generate substantial revenue. Its enduring popularity is driven by its easy-to-learn but hard-to-master gameplay, frequent updates, and social features that encourage competition among friends.
+
+### Simulation Games
+**Top Games: Pizza Ready!, Township, MONOPOLY GO!**
+- **Pizza Ready!:** This simulation game saw remarkable success, especially on Google Play, with 19 million downloads. Its engaging gameplay, which involves managing a virtual pizza restaurant, appeals to players who enjoy strategy and time management elements.
+- **Township:** Another simulation game that performed well on iOS, Township combines city-building with farming, offering a varied and immersive experience. Its blend of different gameplay elements keeps players engaged over the long term.
+- **MONOPOLY GO!:** Generating significant revenue on both platforms, this game leverages the familiar Monopoly brand, adding new features and mechanics to attract both old fans and new players.
+
+### Social and Multiplayer Games
+**Top Games: Roblox, Ludo King™**
+- **Roblox:** This platform continues to dominate with high download numbers and revenue. Roblox's success lies in its user-generated content model, allowing players to create and share their own games. This leads to a vast and ever-evolving library of content, ensuring there is always something new for players to explore.
+- **Ludo King™:** This classic board game adaptation has found a large audience on mobile, particularly in regions where traditional board games are popular. Its simple rules, multiplayer options, and social features make it a favorite for casual gaming sessions with friends and family.
+
+### Endless Runner Games
+**Top Game: Subway Surfers**
+- **Subway Surfers:** As one of the most downloaded games, Subway Surfers remains popular due to its easy-to-understand mechanics, vibrant graphics, and regular updates that introduce new challenges and themes. Its endless runner format appeals to players looking for quick, fun sessions.
+
+These genres and their top-performing games highlight the diverse interests of mobile gamers. The success of these games can be attributed to their engaging gameplay, frequent updates, social features, and the ability to appeal to a wide audience. Whether it's the adrenaline rush of action games, the mental stimulation of puzzles, the strategic depth of simulations, or the social interaction in multiplayer games, there's something for everyone in the mobile gaming world.
+""")
