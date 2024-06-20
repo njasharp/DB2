@@ -52,6 +52,7 @@ highest_earning_data = {
 most_downloaded_df = pd.DataFrame(most_downloaded_data)
 highest_earning_df = pd.DataFrame(highest_earning_data)
 
+st.markdown("<style>body {background-color: #212121;}</style>", unsafe_allow_html=True)
 # Custom CSS to hide the Streamlit menu and footer
 hide_menu_style = """
     <style>
