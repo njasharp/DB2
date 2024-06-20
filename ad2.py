@@ -52,8 +52,18 @@ highest_earning_data = {
 most_downloaded_df = pd.DataFrame(most_downloaded_data)
 highest_earning_df = pd.DataFrame(highest_earning_data)
 
+# Custom CSS to hide the Streamlit menu and footer
+hide_menu_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    </style>
+    """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
+
+
+
 # Streamlit app
-st.set_page_config(layout="wide")
 st.sidebar.title("Data Analysis - Mobile Games May2024")
 st.info("built by dw - v1")
 st.image("gsmetop.png")
